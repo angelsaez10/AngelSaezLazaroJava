@@ -1,3 +1,5 @@
+
+
 public class Interes {
     public static void main(String[] args) {
         String aleatorio ,reverse ,insertada;
@@ -19,6 +21,23 @@ public class Interes {
         sB.insert(5, "gran ");//El numero es la posicion en la que metes la cadena y el texto es lo que metes a la cadena
         System.out.println(sB.toString());
 
+        //return;    -->sirve para parar el programa
+        //System.exit(0);   -->sirve para parar el programa
 
+
+        /* //for each para imprimir arrays
+        System.out.println("Números introducidos:");
+        for (int num : arrayInt) {
+            System.out.print(num + " ");
+        }
+        */
+
+        /* //override necesario para utilizar .sort cuando queremos ordenad alfabeticamente
+        public int compareTo(Alumno otro) {
+            return this.nombre.compareToIgnoreCase(otro.nombre);
+        }
+         */
+
+        //this.id = String.format("%d-%08d", LocalDate.now().getYear(), contador);
     }
 }
